@@ -47,9 +47,7 @@ public final class FileUtils {
      * @throws IOException
      */
     public static void processFileLines(String filePath, String encoding, Consumer<String> consumer) throws IOException {
-        try (Stream<String> stream = Files.lines(Paths.get(filePath), Charset.forName(encoding))) {
-            stream.forEach(line -> consumer.accept(line));
-        }
+        Files.lines(Paths.get(filePath), Charset.forName(encoding)).forEach(consumer);
     }
 
     /**
