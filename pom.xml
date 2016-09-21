@@ -10,7 +10,7 @@
 
     <groupId>com.github.belyiz</groupId>
     <artifactId>code-statistics</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
     <name>Code statisctics</name>
     <description>Caclulate some Java-code metrics</description>
@@ -25,9 +25,9 @@
     </licenses>
 
     <scm>
-        <url>scm:git:https://github.com:BelyiZ/code-statistics-maven-plugin</url>
-        <connection>scm:git:https://github.com:BelyiZ/code-statistics-maven-plugin.git</connection>
-        <developerConnection>scm:git:https://github.com:BelyiZ/code-statistics-maven-plugin.git</developerConnection>
+        <url>scm:git:https://github.com/BelyiZ/code-statistics-maven-plugin</url>
+        <connection>scm:git:https://github.com/BelyiZ/code-statistics-maven-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/BelyiZ/code-statistics-maven-plugin.git</developerConnection>
       <tag>code-statistics-0.0.2</tag>
   </scm>
 
