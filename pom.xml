@@ -27,7 +27,7 @@
     <scm>
         <url>https://github.com/BelyiZ/code-statistics-maven-plugin</url>
         <connection>scm:git:git://github.com/BelyiZ/code-statistics-maven-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:BelyiZ/code-statistics-maven-plugin.git</developerConnection>
+        <developerConnection>scm:git:git@github.com/BelyiZ/code-statistics-maven-plugin.git</developerConnection>
     </scm>
 
     <issueManagement>
